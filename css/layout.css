@@ -1,5 +1,4 @@
-body{
-    background-color: orchid;
+body{background-color: gray;
     color: white;
 }
 
@@ -26,6 +25,9 @@ body{
 }
 
 .column{
+    background-image: url(/images/newspaper.jpg);
+    background-size: cover;
+    height: 300px;
     border: 1px solid orchid;
     width: 80%;
     margin: 10px;
