@@ -1,10 +1,12 @@
 body{
-    background-color: black;
-    color: orchid
+    background-color: orchid;
+    color: white;
 }
 
 #the-header{
+    background-color: black;
     border: 1px solid white;
+    position: sticky;
     padding: 5px;
     margin: 10px;
 }
@@ -12,6 +14,8 @@ body{
 #main-container{
     /*display: grid;*/
     /*grid-template-columns: repeat(3, auto);*/
+    background-color: black;
+    width: 90%;
     margin: 50px auto;
     border: 1px solid white;
     padding: 5px;
@@ -28,6 +32,7 @@ body{
 }
 
 #the-footer{
+    background-color: orangered;
     border: 1px solid white;
     padding: 5px;
     margin: 30px;
