@@ -2,3 +2,39 @@ body{
     background-color: black;
     color: orchid
 }
+
+#the-header{
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+}
+
+#main-container{
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, auto);*/
+    margin: 50px auto;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.row-container{
+    display: flex;
+}
+
+.column{
+    border: 1px solid orchid;
+    width: 80%;
+    margin: 10px;
+}
+
+#the-footer{
+    border: 1px solid white;
+    padding: 5px;
+    margin: 30px;
+}
+
+@media (max-width: 400px){
+    .row-container{
+        flex-direction: column;
+    }
+}
