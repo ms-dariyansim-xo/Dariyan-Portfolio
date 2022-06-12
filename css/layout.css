@@ -1,22 +1,25 @@
-body{background-color: gray;
+body{
+    background-image: url(/images/newspaper.jpg);
+    background-size: cover;
     color: white;
 }
 
 #the-header{
-    background-color: black;
-    border: 1px solid white;
+    background-color: gray;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     position: sticky;
-    padding: 5px;
-    margin: 10px;
+    padding: 15px;
+    margin: 50px;
+    
 }
 
 #main-container{
     /*display: grid;*/
     /*grid-template-columns: repeat(3, auto);*/
     background-color: black;
-    width: 90%;
-    margin: 50px auto;
-    border: 1px solid white;
+    width: 100%;
+    border-radius: 30px;
     padding: 5px;
 }
 
@@ -25,19 +28,22 @@ body{background-color: gray;
 }
 
 .column{
-    background-image: url(/images/newspaper.jpg);
-    background-size: cover;
     height: 300px;
-    border: 1px solid orchid;
+    border-left: 1px solid orangered;
+    border-right: 1px solid orangered;
     width: 80%;
     margin: 10px;
 }
 
 #the-footer{
     background-color: orangered;
-    border: 1px solid white;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     padding: 5px;
-    margin: 30px;
+    margin: 10px;
+
+
+    
 }
 
 @media (max-width: 400px){
