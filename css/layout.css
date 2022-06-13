@@ -1,6 +1,7 @@
 body{
     background-image: url(/images/newspaper.jpg);
     background-size: cover;
+    background-position: relative;
     color: white;
 }
 
@@ -40,7 +41,7 @@ body{
     margin: 5px;
     margin-bottom: 50px;
     border-radius: 10px;
-    writing-mode: vertical-rl;
+    
 }
 
 #the-footer{
