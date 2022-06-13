@@ -1,9 +1,11 @@
 body{
-    background-image: url(/images/newspaper.jpg);
+    background-image: url('/images/newspaper.jpg');
     background-size: cover;
-    background-position: relative;
+    background-attachment: fixed;
     color: white;
 }
+
+
 
 #the-header{
     border-top: 3px solid black;
@@ -25,21 +27,21 @@ body{
     padding: 5px;
 }
 
-.row-container{
-    display: flex;
+.column-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     opacity: 80%;
     margin-top: 50px;
 }
 
 .column{
-    height: 200px;
+    height: 100px;
     background-color: gray;
     opacity: 90%;;
     border-left: 5px solid orangered;
     border-right: 5px solid orangered;
-    width: 80%;
-    margin: 5px;
-    margin-bottom: 50px;
+    width: 95%;
+    margin: 10px;
     border-radius: 10px;
     
 }
@@ -50,11 +52,17 @@ body{
     border-bottom: 3px solid black;
     padding: 5px;
     margin: 20px;
+    text-align: center;
 }
 
 @media (max-width: 400px){
-    .row-container{
-        flex-direction: column;
+    .column-container{
+        grid-template-columns: repeat(1,auto);
         height: 50%;
     }
+}
+
+#left-column-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
 }
