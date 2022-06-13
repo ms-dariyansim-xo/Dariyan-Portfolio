@@ -5,7 +5,6 @@ body{
 }
 
 #the-header{
-    background-color: gray;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     position: sticky;
@@ -23,8 +22,6 @@ body{
     background-color: black;
     border-radius: 30px;
     padding: 5px;
-    
-    
 }
 
 .row-container{
@@ -41,7 +38,9 @@ body{
     border-right: 5px solid orangered;
     width: 80%;
     margin: 5px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    writing-mode: vertical-rl;
 }
 
 #the-footer{
@@ -55,5 +54,6 @@ body{
 @media (max-width: 400px){
     .row-container{
         flex-direction: column;
+        height: 50%;
     }
 }

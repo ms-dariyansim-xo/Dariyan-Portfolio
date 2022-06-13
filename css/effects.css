@@ -1,5 +1,14 @@
+#the-header:hover{
+    background-color: orchid;
+    transition: 4s ease-in-out 2s;
+}
+
 .column:hover{
     transform: scale(1,2);
     background-color: white;
     width: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: orchid;
+    writing-mode: horizontal-tb;
 }
